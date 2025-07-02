@@ -13,7 +13,7 @@ function Header() {
     <div className={`p-4 flex items-center justify-between ${isHomePage ? "bg-blue-50" : "bg-white border-b border-blue-50"}`}>
       <Link href="/" className="flex items-center">
         <ScanEye className="w-6 h-6 text-blue-600 mr-2" />
-        <h1 className="text-xl font-semibold">Reseet</h1>
+        <h1 className="text-xl font-semibold">Reseeit</h1>
       </Link>
 
       <div className="flex items-center space-x-4">
