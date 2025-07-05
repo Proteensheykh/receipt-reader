@@ -6,7 +6,7 @@ import { useUser } from "@clerk/nextjs"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table"
 import { Doc } from "@/convex/_generated/dataModel"
 import { useRouter } from "next/navigation"
-import { ChevronRight, ChevronRightCircleIcon, FileText } from "lucide-react"
+import { ChevronRightCircleIcon, FileText } from "lucide-react"
 
 function ReceiptList() {
     const { user } = useUser()

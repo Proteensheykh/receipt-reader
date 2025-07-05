@@ -20,7 +20,6 @@ function PDFDropzone() {
     // Schematic entitlement for receipt scans
     const {
         value: isFeatureEnabled,
-        featureUsage,
         featureUsageExceeded,
         featureAllocation,
     } = useSchematicEntitlement('receipt-scans')
